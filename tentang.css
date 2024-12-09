@@ -1,0 +1,191 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f3f4f6;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(90deg, #4a90e2, #64748b);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.header p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+/* Main Content */
+.content {
+  width: 100%;
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.text-content h2 {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #4a90e2;
+}
+
+/* Extended Content */
+.extended-content {
+  width: 100%;
+  padding: 40px 20px;
+  background: #e6f0ff;
+}
+
+.extended-content h2 {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.extended-content h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.extended-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.extended-content li {
+  font-size: 1.2rem;
+  margin: 12px 0;
+}
+
+.extended-content li strong {
+  color: #4a90e2;
+}
+
+/* AI Technology Section */
+.ai-technology {
+  padding: 60px 20px;
+  background: #f1f5f9;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.ai-technology h2 {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.ai-technology h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.ai-technology p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.ai-technology ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.ai-technology li {
+  margin-bottom: 12px;
+}
+
+.ai-technology li strong {
+  color: #4a90e2;
+}
+
+/* CTA (Call to Action) */
+.cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-button {
+  background: #4a90e2;
+  color: white;
+  font-size: 1.3rem;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #357ab8;
+}
+
+.cta-button:active {
+  background: #285a8e;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: #f1f5f9;
+  font-size: 1rem;
+  margin-top: 40px;
+  width: 100%;
+}

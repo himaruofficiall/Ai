@@ -1,0 +1,49 @@
+{
+  "particles": {
+    "number": {
+      "value": 50, // Kurangi jumlah partikel
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false
+    },
+    "size": {
+      "value": 3, // Ukuran partikel lebih kecil
+      "random": true
+    },
+    "move": {
+      "enable": true,
+      "speed": 2, // Kecepatan gerakan lebih rendah
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": {
+        "enable": false
+      },
+      "onclick": {
+        "enable": false
+      }
+    }
+  },
+  "retina_detect": true
+}
